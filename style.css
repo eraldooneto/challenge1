@@ -1,0 +1,92 @@
+* {
+    background: #E5E5E5;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+
+}
+
+.logomarca {
+    margin-left: 10px;
+    padding-top: 10px;
+    width: 2%;
+}
+
+main {
+    display: flex;
+    width: 100;
+    height: 100%;
+
+}
+
+.all-content {
+    margin: 0 auto;
+    display: flex;
+}
+
+.first-section {
+    flex: 1;
+}
+
+.second-section {
+
+}
+
+.text-area {
+    border: none;
+    color: #0A3871;
+    margin-top: 90px;
+    text-transform: lowercase;
+    resize: none;
+}
+
+h6 {
+    font-size: 15px;
+}
+
+::placeholder {color: #0A3871; }
+    .text-area:focus {
+        outline: none;
+    }
+
+.mensagem {
+    background: white;
+    background-image: url(/images/boneco.png);
+    background-repeat: no-repeat;
+    border: none;
+    border-radius: 24px;
+    color: #0A3871;
+    margin-left: 98px;
+    margin-top: 20px;
+    padding-left: 20px;
+    position: fixed;
+    resize: none;
+}
+
+.mensagem::focus {
+    outline: none;
+}
+
+.botoes {
+    display: flex;
+    margin-top: 18px;
+}
+
+.btn-encriptar {
+    margin-right: 15px;
+    background-color: rgba(44, 127, 142, 0.712);
+    border-radius: 15px;
+    color: white;
+}
+
+.btn-desencriptar {
+    margin-left: 15px;
+    background-color: #0A3871;
+    color: #E5E5E5;
+    border-radius: 15px;
+}
+
+.center {
+    margin: auto;
+}
